@@ -186,6 +186,10 @@ cap.release()
 
 このコードは、ブロードキャストから1フレームを取得し、指定したファイル名で保存します。また、処理時間を計測し、結果を表示します。
 
+> 撮影画像
+
+![](https://raw.githubusercontent.com/Sunwood-ai-labs/YlvaVisionAPI/main/demo/captured_frame.jpg)
+
 ## まとめ
 
 YlvaVisionAPIを使用することで、Webカメラからリアルタイムの画像を取得し、ブロードキャストすることができます。クライアントサイドでは、ブロードキャストを受信し、画像を表示したり保存したりすることができます。
