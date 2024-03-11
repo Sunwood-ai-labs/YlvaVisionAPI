@@ -144,7 +144,7 @@ cv2.destroyAllWindows()
 
 このコードは、ブロードキャストを受信し、リアルタイムでフレームを表示します。また、フレームの処理時間を計測し、平均フレーム処理時間と平均フレームレートを表示します。
 
-#### デモ動画
+### デモ動画
 
 <blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">Claude3 オンリーでWEBカメラをブロードキャストするAPIを自作してリアルタイム表示してみた！ <a href="https://t.co/iE31npQOL1">pic.twitter.com/iE31npQOL1</a></p>&mdash; Maki@Sunwood AI Labs. (@hAru_mAki_ch) <a href="https://twitter.com/hAru_mAki_ch/status/1767180863639609760?ref_src=twsrc%5Etfw">March 11, 2024</a></blockquote> 
 
