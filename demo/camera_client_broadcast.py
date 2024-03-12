@@ -18,6 +18,7 @@ while True:
     # フレームを読み込む
     ret, frame = cap.read()
 
+    print(ret)
     if not ret:
         break
 
@@ -34,7 +35,7 @@ while True:
         break
 
 # 平均フレーム処理時間を計算
-avg_frame_time = sum(frame_times) / len(frame_times)
+avg_frame_time = (sum(frame_times) ) / (len(frame_times)+ 1e1)
 
 # 結果を表示
 print(f"Average Frame Processing Time: {avg_frame_time:.2f} seconds")
