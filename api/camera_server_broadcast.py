@@ -15,6 +15,7 @@ cap = cv2.VideoCapture(camera_id)
 # カメラの解像度を設定
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
+cap.set(cv2.CAP_PROP_FOURCC, cv2.VideoWriter_fourcc('M','J','P','G'))
 
 async def gen_frames():
     while True:
