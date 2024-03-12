@@ -10,7 +10,7 @@ url = "http://localhost:8000/camera"
 cap = cv2.VideoCapture(url)
 
 # 保存するフレームのファイル名
-filename = "captured_frame.jpg"
+filename = "captured_frame2.jpg"
 
 start_time = time.time()  # 処理開始時間を記録
 
